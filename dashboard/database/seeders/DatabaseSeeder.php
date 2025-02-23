@@ -36,5 +36,13 @@ class DatabaseSeeder extends Seeder
             'description' => 'Scheduled Maintenance 2',
             'created_by' => 'Test User 2',
         ]);
+
+          scheduleMaintenance::create([
+            'type' => 'Vehicle Maintenance',
+            'mt_date' => '2025-05-22 18:22:03',
+            'status' => 'Scheduled 3',
+            'description' => 'Scheduled Maintenance 3',
+            'created_by' => 'Test User 3',
+        ]);
     }
 }
